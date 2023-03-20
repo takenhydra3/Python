@@ -1,0 +1,7 @@
+def my_function(n):
+    if n > 10:
+        print(n, '> than 10.')
+    else:
+        print(n, '< than 10.')
+
+my_function(int(input('Enter number: ')))
