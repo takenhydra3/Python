@@ -1,0 +1,6 @@
+name = 'James'
+age = 26
+city = 'Gyumri'
+
+result = 'Name - {0}\nAge - {1}\nCity - {2}'.format(name, age, city)
+print(result)
