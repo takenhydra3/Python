@@ -1,0 +1,12 @@
+def new_func():
+    ls_1 = list(range(1, 500))
+    ls_2 = []
+    ls_3 = []
+    if len(ls_1) == 250:
+        ls_2.extend(ls_1)
+        print(ls_2)
+    else:
+        ls_3.extend(ls_1)
+        print(ls_3)
+
+new_func()
